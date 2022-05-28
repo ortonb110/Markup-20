@@ -1,0 +1,79 @@
+/* CSS files */
+@import url(/css/normalize.css);
+@import url(/css/navbar.css);
+@import url(/css/category.css);
+@import url(/css/user-details.css);
+
+/* Colors */
+:root {
+    --bg-grey__light: #F6F8F9;
+    --text-color__orange: #FFA887;
+    --bg-blue__light: #5EB5E6;
+    --text-blue__light: #5EB5E6;
+}
+
+/* Seeting Colors */
+.bg-grey__light {
+    background-color: var(--bg-grey__light);
+}
+
+.bg-blue__light {
+    background-color: var(--bg-blue__light);
+}
+
+.text-blue__light {
+    color: var(--text-blue__light);
+}
+
+.text-color__orange {
+    color: var(--text-color__orange);
+}
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-grey__light);
+    height: 100%;
+}
+
+/* Resets */
+
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+.body-container {
+    width: 50rem;
+    margin: 1rem auto;
+    
+}

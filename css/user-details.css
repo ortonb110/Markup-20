@@ -1,0 +1,85 @@
+.user-container {
+    width: 10rem;
+    height: fit-content;
+    padding: 1.5rem;
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: 200;
+    text-transform: capitalize;
+    border: 1px solid #cde4f0;
+    background-color: #FFF;
+    margin-left: 1.8rem;
+}
+
+
+.user-avatar {
+    width: 3.8rem;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 400;
+}
+
+.work, .location {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+
+.location {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+}
+
+.btn {
+    outline: none;
+    padding: 0.3rem 0;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 200;
+    margin-bottom: 0.4rem;
+}
+
+.btn-primary {
+    background-color: #5EB5E6;
+    color: #FFF;
+}
+
+.btn-outline {
+    border: 1px solid #5EB5E6;
+    background-color: #FFF;
+    color: #5EB5E6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.text {
+    text-overflow: ellipsis;
+}
+
+.links {
+    font-size: 0.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0.9rem 0;
+}
+
+.icons {
+    font-size: 0.7rem;
+    margin-right: 0.2rem;
+}
+
+.link-items {
+    display: flex;
+    margin-bottom: 0.2rem;
+}

@@ -1,0 +1,82 @@
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
+    font-weight: 200;
+    background-color: #FFF;
+    padding-top: 0.7rem;
+    
+}
+
+
+.nav {
+    width: 50rem;
+    margin: 0 auto;
+    
+}
+
+.navlist {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    
+}
+
+.nav__icon {
+    width: 1.5rem;
+    object-fit: cover;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.nav__icon:hover {
+    transform: scale(1.5);
+}
+
+
+
+.icon_rounded{
+    border-radius: 50%;
+}
+
+
+.navitems {
+    padding-inline:0.5rem ;
+    cursor: pointer;
+   
+}
+
+
+.search-input {
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.5rem;
+    width: 7rem;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.navList {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 0.4rem;
+    bottom: 0;
+    right: 0;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.green {
+    color: #2BCD71;
+}
+
+.yellow {
+    color: #F1C40F;
+}
+
+.purple {
+    color: #9B58B6;
+}
